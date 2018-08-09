@@ -1,0 +1,7 @@
+<p>Create a product</p>
+<%= simple_form_for @product do |f| %>
+<%= f.input :title %>
+<%= f.input :description %>
+<%= f.input :categories, as: :check_boxes, collection: Category.all, include_hidden: false %>
+<%= f.button :submit %>
+<% end %>
