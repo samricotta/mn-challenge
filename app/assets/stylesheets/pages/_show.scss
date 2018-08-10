@@ -1,0 +1,25 @@
+.centered {
+  margin: 0 auto;
+  width: 800px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.green a, .green {
+  color: $main-colour;
+  text-decoration: none;
+}
+
+.green a:hover {
+  color: #80cfa991;
+}
+
+.centered h1 {
+  text-align: center;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 25px;
+}

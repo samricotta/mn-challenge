@@ -1,0 +1,12 @@
+.centered
+  %h1
+    Products for #{@category.name}
+  - @category.products.order(created_at: :desc).each do |product|
+    %p.green
+      🍼 #{product.title}
+    %p
+      = product.description
+    %p= product.created_at.strftime("%m/%d/%Y")
+  .button-container
+    %span.button= link_to "Create a new product", new_category_product_path(@category)
+    %span.button= link_to "Back to Categories", categories_path

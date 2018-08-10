@@ -15,9 +15,11 @@ gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+gem 'haml'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
+  gem 'haml-rails', '>= 0.3.4'
 end
 
 group :development, :test do
@@ -29,4 +31,5 @@ group :development, :test do
   gem 'dotenv-rails'
   gem 'capybara'
   gem 'rspec-rails', '~> 3.7'
+  gem 'rails-controller-testing'
 end

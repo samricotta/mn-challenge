@@ -1,0 +1,10 @@
+.centered
+  %h1 Categories
+  - @categories.each do |category|
+    %p.green
+      🍼 #{link_to category.name, category_path(category)}
+  .form-container
+    %h4.green Create a new category
+    = simple_form_for @category do |f|
+      = f.input :name
+      .button-container= f.button :submit, class: "button"

@@ -7,5 +7,10 @@ RSpec.describe Product, :type => :model do
       link = ProductCategory.new(product: product, category: category)
       expect(link).to be_valid
   end
+
+  it "should be invalid if product has no name" do
+    product = Product.new
+    expect(product).to be_invalid
+  end
 end
 

@@ -1,0 +1,9 @@
+.centered
+  %h1 Create a product
+  .form-container
+    = simple_form_for @product do |f|
+      = f.input :title
+      = f.input :description
+      %p Please select at least one category below
+      = f.input :categories, as: :check_boxes, collection: Category.all, include_hidden: false, checked: params[:category_id]
+      = f.button :submit, class: "button"
