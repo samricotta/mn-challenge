@@ -46,5 +46,5 @@ rspec or rake
 
 ## Personal notes
 
-I found the most difficult aspect of the project the rspec as I havent done that much of it before and so I learnt it specifically for this test. There arent a large amount of tests implemented but if I had more time I would have definitely built more. I had quite a few tech tests to complete this week, I only had a couple of days for this test!
+I found the most difficult aspect of the project the rspec as I haven't had any real in-depth experience with it, so I learnt it specifically for this test. There aren't a large amount of tests implemented but if I had more time I would have definitely built more. I had quite a few tech tests to complete this week, I only had a couple of days for this test!
 
