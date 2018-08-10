@@ -1,7 +1,5 @@
 # Mumsnet challenge
 
-##General
-
 This application displays a number of categories with products attached. Each product can have multiple categories and each category can have multiple products. The user can create both a category and product themselves.
 
 There isnt much design implemented but I thought it was important to have a bit, so that it is clearer for the user what to do. I have separated the components such as buttons and forms to the main styling for each page.
@@ -43,7 +41,7 @@ The tests are located in the 'spec' folder and are sorted into controller and mo
 Please run the below for testing:
 
 ```
-rspec
+rspec or rake
 ```
 
 ## Personal notes
